@@ -1,6 +1,15 @@
 from collections import defaultdict
 
 class Solution():
+
+  """
+  Problem: Group Anagrams
+  Difficulty: Medium
+  """
+
+  # Time: O(n × m log m) | Space: O(n × m)
+  # n = number of strings
+  # m = average length of strings, because of the sorted algorithm
   def group_anagrams(self, strs: list[str]) -> list[list[str]]:
 
       anagrams = defaultdict(list)

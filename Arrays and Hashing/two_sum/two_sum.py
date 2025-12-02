@@ -1,4 +1,11 @@
 class Solution:
+
+  """
+  Problem: Two Sum
+  Difficulty: Easy
+  """
+
+  # Time: O(n) | Space: 0(n)
   def twoSum(self, nums: list[int], target: int) -> list[int]:
     numbers_map = {}
 

@@ -1,4 +1,11 @@
 class Solution:
+
+  """
+  Problem: Valid Anagram
+  Difficulty: Easy
+  """
+
+  # Time: O(n) | Space: O(n)
   def isAnagram(self, s: str, t: str) -> bool:
 
     if len(s) != len(t): # Skips making a hashmap if the length of both strings isn't the same, returns false
